@@ -1,4 +1,5 @@
 from flask import Flask
+from helper import pets
 
 app = Flask(__name__)
 
@@ -46,7 +47,7 @@ def pet(pet_type, pet_id):
   </ul>
   """
   
-if __name__ ="__main__":
+if __name__ == "__main__":
     app.run(debug=True)
     
     
