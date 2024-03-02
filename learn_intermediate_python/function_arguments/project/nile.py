@@ -7,7 +7,7 @@ def get_distance(from_lat, from_long, to_lat, to_long):
     a = (sin(dlat / 2)) ** 2 + cos(from_lat) * cos(to_lat) * (sin(dlon / 2)) ** 2
     c = 2 * atan2(sqrt(a), sqrt(1 - a))
     distance = a * c
-    
+
     return distance
 
 

@@ -57,7 +57,6 @@ for bot in bots:
 
 # # Move the robots and update the map based on the moves deque
 while len(robot_moves) > 0:
-
     bot_name, direction, has_collided = robot_moves.popleft()
     bot_data[bot_name].process_move(direction)
 
@@ -66,5 +65,5 @@ while len(robot_moves) > 0:
     rr.print_maze(maze_data)
     sleep(seconds_between_turns - time() % seconds_between_turns)
 
-# Print out the results!
+    # Print out the results!
     rr.print_results(bot_scores)

@@ -1,4 +1,8 @@
-from learn_intermediate_python.function_arguments.project.nile import get_distance, format_price, SHIPPING_PRICES
+from learn_intermediate_python.function_arguments.project.nile import (
+    get_distance,
+    format_price,
+    SHIPPING_PRICES,
+)
 from test import test_function
 
 

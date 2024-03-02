@@ -1,5 +1,6 @@
 from emoji import emojize
 
+
 def test_function(fn):
     if fn.__name__ == "calculate_shipping_cost":
         test_shipping(fn)
