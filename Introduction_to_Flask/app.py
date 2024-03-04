@@ -14,7 +14,8 @@ def index():
     <li><a href="/animals/cats">Cats</a></li>
     <li><a href="/animals/rabbits">Rabbits</a></li>
   """
-  
+
+
 @app.route("/animals/<pet_type>")
 def animals(pet_type):
     if pet_type not in pets:
@@ -28,6 +29,7 @@ def animals(pet_type):
     html += "</ul>"
 
     return html
+
 
 @app.route("/animals/<pet_type>/<int:pet_id>")
 def pet(pet_type, pet_id):
@@ -46,8 +48,7 @@ def pet(pet_type, pet_id):
     <li>Age: {age}</li>
   </ul>
   """
-  
+
+
 if __name__ == "__main__":
     app.run(debug=True)
-    
-    
