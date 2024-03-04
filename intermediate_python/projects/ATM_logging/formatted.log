@@ -1,0 +1,25 @@
+2024-03-02 20:36:26,920 - INFO - __main__ - Amount Deposited: $50.0
+2024-03-02 20:36:26,921 - INFO - __main__ - Transaction Info:
+2024-03-02 20:36:26,921 - INFO - __main__ - Status: Successful
+2024-03-02 20:36:26,921 - INFO - __main__ - Transaction #667492
+2024-03-02 20:36:28,968 - ERROR - __main__ - Error! Insufficient balance to complete withdraw.
+2024-03-02 20:36:28,968 - INFO - __main__ - Transaction Info:
+2024-03-02 20:36:28,968 - INFO - __main__ - Status: Failed
+2024-03-02 20:36:28,968 - INFO - __main__ - Transaction #102744
+2024-03-02 20:36:42,052 - INFO - __main__ - Amount Deposited: $50.0
+2024-03-02 20:36:42,052 - INFO - __main__ - Transaction Info:
+2024-03-02 20:36:42,052 - INFO - __main__ - Status: Successful
+2024-03-02 20:36:42,052 - INFO - __main__ - Transaction #301023
+2024-03-02 20:36:43,007 - INFO - __main__ - You withdrew: $10.0
+2024-03-02 20:36:43,008 - INFO - __main__ - Transaction Info:
+2024-03-02 20:36:43,008 - INFO - __main__ - Status Succesful
+2024-03-02 20:36:43,008 - INFO - __main__ - Transaction #556624
+2024-03-02 20:37:20,528 - ERROR - __main__ - Error! Invalid pin. Try again.
+2024-03-02 20:37:32,893 - INFO - __main__ - Amount Deposited: $20.0
+2024-03-02 20:37:32,893 - INFO - __main__ - Transaction Info:
+2024-03-02 20:37:32,893 - INFO - __main__ - Status: Successful
+2024-03-02 20:37:32,893 - INFO - __main__ - Transaction #678179
+2024-03-02 20:37:33,895 - INFO - __main__ - You withdrew: $30.0
+2024-03-02 20:37:33,895 - INFO - __main__ - Transaction Info:
+2024-03-02 20:37:33,895 - INFO - __main__ - Status Succesful
+2024-03-02 20:37:33,895 - INFO - __main__ - Transaction #730377
